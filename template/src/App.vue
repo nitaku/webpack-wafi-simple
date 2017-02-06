@@ -19,14 +19,10 @@
   </div>
 </template>
 
-<script>
+<script lang="coffee">
 export default {
-  name: 'app',
-  data () {
-    return {
+  data: () ->
       msg: 'Welcome to Your Vue.js App'
-    }
-  }
 }
 </script>
 
