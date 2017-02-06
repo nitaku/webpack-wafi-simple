@@ -1,4 +1,6 @@
-# webpack-simple
+# webpack-wafi-simple
+
+## For internal use at IIT CNR
 
 > A simple Vue 2.0 Webpack & `vue-loader` setup for quick prototyping. Note this template is not suitable for production - for that you may want to wait for an official 2.0 webpack template.
 
