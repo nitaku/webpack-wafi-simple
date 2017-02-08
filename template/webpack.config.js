@@ -2,7 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/main.coffee',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: 'dist/',
@@ -28,6 +28,10 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.coffee$/,
+        loader: 'coffee-loader'
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
