@@ -34,6 +34,10 @@ module.exports = {
         loader: 'coffee-loader'
       },
       {
+        test: /\.css/,
+        loader: 'css-loader'
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
